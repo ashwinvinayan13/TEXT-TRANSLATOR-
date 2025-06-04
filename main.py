@@ -24,3 +24,5 @@ async def translate_text(data: TextInput):
     result = translator(data.text)
     return {"translation": result[0]["translation_text"]}
 
+
+
